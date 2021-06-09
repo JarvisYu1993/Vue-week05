@@ -1,0 +1,218 @@
+body{
+    background-color: #FAFAFA;
+}
+ul{
+    padding:0;
+}
+a{
+  text-decoration: none;
+}
+.card{
+    border: none;
+    box-shadow: 1px 1px 6px rgba(0,0,0,.3);
+}
+
+  .productWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;   
+  }
+  
+  .productCard {
+    position: relative;
+    margin-right: 2%;
+    width: 23%;
+    min-height: 300px;
+    margin-bottom: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;  
+    box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+  }
+  
+  .productImg {
+    min-height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;   
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; 
+    cursor:pointer;
+    position:relative;
+  }
+  .productImg i{
+    position:absolute;
+    top:50%;
+    left:45%;
+  }
+
+  
+  .productCard a {
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 0;
+    text-align: center;
+    border: none;
+  }
+  
+  .productCard a:hover {
+    background-color: #2aaeeb;
+  }
+  
+  .productCard a, .productCard h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 900px) {
+    .productCard {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .productCard {
+      width: 100%;
+    }
+  }
+  
+  .productType {
+    position: absolute;
+    top: 13px;
+    right: -5px;
+    z-index: 5;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 24px;
+  }
+  
+  .originPrice {
+    font-size: 1rem;
+  }
+  
+  .nowPrice {
+    font-size: 1.5rem;
+  }
+
+  .addBtn{
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    margin-bottom: 8px;
+    text-decoration: none;
+  }
+  .addBtn:hover{
+    background-color: #2aaeeb;
+    color:#ffffff;
+  }
+  .shoppingCart {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+  }
+  
+  .shoppingCart-title{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+  
+  .shoppingCart-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  .shoppingCart-table th, .shoppingCart-table td {
+    padding: 15px;
+    vertical-align: baseline;
+  }
+  .shoppingCart-table td:first-child{
+    vertical-align: middle;
+  }
+  .shoppingCart-table tfoot td{
+    vertical-align: baseline;
+
+  }
+  
+  .shoppingCart-table th {
+    text-align: left;
+  }
+  .shoppingCart-tableList{
+    border-bottom: 1px solid #B9B9B9;
+  }
+  
+  
+  .shoppingCart-table tr:first-child, .shoppingCart-table tr:last-child {
+    border-bottom: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .shoppingCart-table {
+      width: 700px;
+    }
+  }
+  .discardBtn {
+    text-align: left;
+  }
+  
+  .discardBtn a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 2rem;
+    color: #000000;
+  }
+  
+  .discardBtn a:hover {
+    color: #2aaeeb;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .discardAllBtn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    color: #000000;
+    border: 1.3px solid #000000;
+    border-radius: 5px;
+    font-size: 1.25rem;
+  }
+  
+  .discardAllBtn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .cardItem-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .cardItem-title img {
+    margin-right: 15px;
+    max-width: 80px;
+  }
+  .edit_btn{
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+    cursor: pointer;
+  }
+  .form-control{
+    border:1px solid #000000;
+  }
+  .input-group-text{
+    background-color: #000000;
+    border:1px solid #000000;
+    color: #ffffff;
+  }
